@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Sun Glow -->
+    <radialGradient id="sunGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff2a8" />
+      <stop offset="45%" stop-color="#fbb034" />
+      <stop offset="100%" stop-color="#f48624" />
+    </radialGradient>
+    
+    <!-- Sky gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbee" />
+      <stop offset="100%" stop-color="#ffeedb" />
+    </linearGradient>
+
+    <!-- Field & Leaf Greens -->
+    <linearGradient id="forestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d7348" />
+      <stop offset="50%" stop-color="#1f5835" />
+      <stop offset="100%" stop-color="#113820" />
+    </linearGradient>
+
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4caf50" />
+      <stop offset="100%" stop-color="#1b5e20" />
+    </linearGradient>
+
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Crest Graphic -->
+  <g transform="translate(0, -10)">
+    <!-- Sun -->
+    <circle cx="250" cy="180" r="75" fill="url(#sunGlow)" />
+    
+    <!-- Birds in distance -->
+    <path d="M 295 140 Q 301 135 307 140 Q 313 135 319 140 Q 313 138 307 137 Q 301 138 295 140 Z" fill="#2d523b" />
+    <path d="M 265 155 Q 269 152 274 155 Q 278 152 282 155 Q 278 153 274 153 Q 269 153 265 155 Z" fill="#2d523b" />
+
+    <!-- Distant hills and trees -->
+    <path d="M 210 200 C 235 185 270 185 305 200 L 320 220 L 200 220 Z" fill="#1b4d2e" />
+
+    <!-- Furrowed Green Fields -->
+    <path d="M 220 220 L 200 280 L 280 280 L 260 220 Z" fill="#43a047" opacity="0.4" />
+    <path d="M 220 220 L 250 220 L 270 280 L 250 280 Z" fill="#2e7d32" />
+    <path d="M 228 220 L 235 280" stroke="#a5d6a7" stroke-width="2.5" />
+    <path d="M 240 220 L 252 280" stroke="#a5d6a7" stroke-width="2.5" />
+    <path d="M 250 220 L 268 280" stroke="#a5d6a7" stroke-width="2.5" />
+
+    <!-- Farmer with Turban (Pagri) on Left -->
+    <g transform="translate(185, 145)">
+      <!-- Head and Turban -->
+      <ellipse cx="28" cy="30" rx="18" ry="20" fill="#153324" />
+      <!-- Pagri wrap swirls -->
+      <path d="M 12 28 C 15 16 35 14 44 24 C 36 28 22 28 12 28 Z" fill="#ffffff" />
+      <path d="M 14 34 C 18 24 38 22 43 32 C 34 35 24 35 14 34 Z" fill="#ffffff" />
+      <path d="M 18 39 C 22 32 38 31 41 38" stroke="#ffffff" stroke-width="2" fill="none" />
+      <!-- Farmer torso / shoulder -->
+      <path d="M 8 50 C 0 65 -4 95 -6 115 L 45 115 C 48 95 44 75 42 55 C 34 50 20 48 8 50 Z" fill="#153324" />
+      <!-- White garment sash stripes -->
+      <path d="M 5 65 L 28 115" stroke="#ffffff" stroke-width="3.5" />
+      <path d="M 15 62 L 38 115" stroke="#ffffff" stroke-width="3" />
+    </g>
+
+    <!-- Market Stall with Awning & Produce on Right -->
+    <g transform="translate(280, 168)">
+      <!-- Striped Awning -->
+      <path d="M 0 35 L 75 35 L 70 48 C 65 52 60 52 55 48 C 50 52 45 52 40 48 C 35 52 30 52 25 48 C 20 52 15 52 10 48 C 5 52 0 52 -5 48 Z" fill="#153324" />
+      <path d="M 5 35 L 15 35 L 10 48 L 0 48 Z" fill="#ffffff" />
+      <path d="M 25 35 L 35 35 L 30 48 L 20 48 Z" fill="#ffffff" />
+      <path d="M 45 35 L 55 35 L 50 48 L 40 48 Z" fill="#ffffff" />
+      <path d="M 65 35 L 75 35 L 70 48 L 60 48 Z" fill="#ffffff" />
+
+      <!-- Wooden Crate with Tomatoes and Wheat -->
+      <rect x="0" y="55" width="60" height="28" rx="2" fill="#c68a4c" stroke="#8d5b28" stroke-width="1.5" />
+      <line x1="0" y1="69" x2="60" y2="69" stroke="#8d5b28" stroke-width="1.5" />
+      <!-- Tomatoes -->
+      <circle cx="12" cy="50" r="7" fill="#d32f2f" />
+      <circle cx="24" cy="49" r="8" fill="#e53935" />
+      <circle cx="34" cy="52" r="6" fill="#c62828" />
+      <!-- Wheat stalk bundle -->
+      <path d="M 42 55 Q 50 40 54 30" stroke="#f59e0b" stroke-width="3" fill="none" />
+      <path d="M 46 55 Q 54 38 60 32" stroke="#d97706" stroke-width="3" fill="none" />
+      <path d="M 38 55 Q 44 42 48 35" stroke="#f59e0b" stroke-width="2.5" fill="none" />
+    </g>
+
+    <!-- Rising Bar Graph with Upward Arrow -->
+    <g transform="translate(305, 115)">
+      <rect x="0" y="38" width="8" height="15" rx="1.5" fill="#4caf50" />
+      <rect x="12" y="28" width="8" height="25" rx="1.5" fill="#388e3c" />
+      <rect x="24" y="16" width="8" height="37" rx="1.5" fill="#2e7d32" />
+      <rect x="36" y="2" width="8" height="51" rx="1.5" fill="#1b5e20" />
+      <!-- Curved Rising Arrow -->
+      <path d="M -20 54 Q 15 36 44 8" stroke="#15803d" stroke-width="4.5" fill="none" stroke-linecap="round" />
+      <polygon points="44,2 49,15 38,12" fill="#15803d" />
+    </g>
+
+    <!-- Embracing Green Leaf Wings (Left & Right) -->
+    <!-- Left Leaf Wing -->
+    <path d="M 135 170 C 130 250 170 310 240 330 C 200 320 160 270 165 210 C 168 175 145 155 135 170 Z" fill="url(#leafGrad)" />
+    <!-- Inner Leaf Layer -->
+    <path d="M 148 190 C 150 255 190 300 235 315 C 195 305 170 265 172 215 Z" fill="#66bb6a" opacity="0.8" />
+
+    <!-- Right Leaf Wing -->
+    <path d="M 390 170 C 395 250 345 310 275 330 C 315 320 355 270 350 210 C 347 175 380 155 390 170 Z" fill="url(#leafGrad)" />
+    <path d="M 377 190 C 375 255 330 300 280 315 C 325 305 348 265 345 215 Z" fill="#66bb6a" opacity="0.8" />
+
+    <!-- Central Handshake Base -->
+    <g transform="translate(205, 275)">
+      <!-- Left green sleeve & hand -->
+      <path d="M 15 35 L 35 15 C 42 8 52 8 58 14 L 62 18 C 65 21 65 26 60 30 L 40 48 C 34 54 22 50 15 35 Z" fill="#2e7d32" />
+      <!-- Right brown hand clasping -->
+      <path d="M 75 15 L 52 35 C 46 41 38 41 32 35 L 30 33 C 27 30 27 25 32 21 L 52 3 C 58 -3 70 1 75 15 Z" fill="#8d5b28" />
+      <!-- Fingers detail -->
+      <rect x="36" y="32" width="7" height="12" rx="3.5" fill="#794a20" transform="rotate(-30 36 32)" />
+      <rect x="42" y="37" width="7" height="12" rx="3.5" fill="#794a20" transform="rotate(-30 42 37)" />
+      <rect x="48" y="42" width="7" height="12" rx="3.5" fill="#794a20" transform="rotate(-30 48 42)" />
+      <rect x="54" y="47" width="7" height="12" rx="3.5" fill="#794a20" transform="rotate(-30 54 47)" />
+    </g>
+  </g>
+
+  <!-- Typography: MITTI2MARKET -->
+  <g transform="translate(45, 375)">
+    <!-- Sprout Leaves on double 'tt' of Mitti -->
+    <path d="M 125 -16 C 115 -28 122 -38 135 -34 C 138 -22 132 -16 125 -16 Z" fill="#2e7d32" />
+    <path d="M 137 -14 C 147 -24 158 -22 154 -10 C 144 -8 139 -10 137 -14 Z" fill="#4caf50" />
+
+    <!-- "Mitti" in bold forest green -->
+    <text x="0" y="15" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="64" fill="#0d4722" letter-spacing="-1">Mitti</text>
+
+    <!-- "2" in vibrant warm amber gold -->
+    <text x="145" y="15" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="70" fill="url(#goldGrad)">2</text>
+
+    <!-- "Market" in bold forest green -->
+    <text x="195" y="15" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="64" fill="#0d4722" letter-spacing="-1">Market</text>
+
+    <!-- Dynamic Swoosh underline below 2Market -->
+    <path d="M 110 26 Q 220 22 290 42 C 220 30 160 32 110 26 Z" fill="url(#goldGrad)" />
+    <path d="M 130 32 Q 240 26 315 48 C 240 34 180 37 130 32 Z" fill="#1b5e20" />
+  </g>
+
+  <!-- Tagline: Better Price • Higher Margin • Prosperous Farmers -->
+  <text x="250" y="445" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="14.5" fill="#153324" letter-spacing="1.2">
+    Better Price  •  Higher Margin  •  Prosperous Farmers
+  </text>
+</svg>

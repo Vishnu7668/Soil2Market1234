@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-canvas: #f8faf7;
+  --color-ink: #20221f;
+
+  --color-forest-50: #f0f7f2;
+  --color-forest-100: #dcece1;
+  --color-forest-200: #b8d9c4;
+  --color-forest-300: #8cbf9f;
+  --color-forest-400: #5da077;
+  --color-forest-500: #3c7f58;
+  --color-forest-600: #2c6845;
+  --color-forest-700: #204f37;
+  --color-forest-800: #1a3f2c;
+  --color-forest-900: #153324;
+  --color-forest-950: #0d2318;
+
+  --color-harvest-50: #fffbeb;
+  --color-harvest-100: #fef3c7;
+  --color-harvest-200: #fde68a;
+  --color-harvest-300: #edb64c;
+  --color-harvest-400: #e29e2b;
+  --color-harvest-500: #d97706;
+  --color-harvest-600: #b45309;
+
+  --color-sprout-50: #f0fdf4;
+  --color-sprout-100: #dcfce7;
+  --color-sprout-200: #bbf7d0;
+  --color-sprout-300: #86efac;
+  --color-sprout-400: #4ade80;
+  --color-sprout-500: #22c55e;
+  --color-sprout-600: #16a34a;
+  --color-sprout-700: #15803d;
+}
+
+@layer components {
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px #1533240f, 0 4px 16px #1533240f;
+    border: 1px solid rgba(220, 236, 225, 0.6);
+    border-radius: 1.25rem;
+  }
+
+  .btn-primary {
+    background-color: #204f37;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background-color: #1a3f2c;
+  }
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-secondary {
+    border: 1px solid #b8d9c4;
+    background-color: #ffffff;
+    color: #204f37;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  .btn-secondary:hover {
+    background-color: #f0f7f2;
+  }
+  .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-accent {
+    background-color: #e29e2b;
+    color: #153324;
+    border-radius: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  .btn-accent:hover {
+    background-color: #edb64c;
+  }
+
+  .badge {
+    border-radius: 9999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+}
+

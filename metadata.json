@@ -1,0 +1,6 @@
+{
+  "name": "MITTI2MARKET",
+  "description": "Digital market-linkage platform for farmers with real-time mandi prices, net realization comparison, buyer offers, logistics calculation, and quality verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
