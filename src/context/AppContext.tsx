@@ -185,7 +185,7 @@ const INITIAL_PRODUCE: Produce[] = [
   },
   {
     id: "p4",
-    crop: "Soyabean",
+    crop: "Rice",
     variety: "Yellow Gold",
     quantityKg: 2000,
     grade: "Grade A",
