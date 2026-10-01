@@ -305,7 +305,7 @@ const INITIAL_BUYERS: Buyer[] = [
     verified: true,
     rating: 4.8,
     transactionsCompleted: 310,
-    requiredCrop: "Soyabean",
+    requiredCrop: "Rice",
     requiredQuantityKg: 5000,
     qualityRequired: "Grade A",
     offerPricePerKg: 48.0,
