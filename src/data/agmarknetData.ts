@@ -15,7 +15,7 @@ export const CROPS_LIST = [
   "Tomato",
   "Onion",
   "Potato",
-  "Soyabean",
+  "Rice",
   "Wheat",
   "Cotton",
   "Grapes",
@@ -58,12 +58,12 @@ export const VERIFIED_AGMARKNET_DATA: MandiRecord[] = [
   { market: "Agra", district: "Agra", state: "Uttar Pradesh", commodity: "Potato", variety: "Desi", grade: "Grade A", arrivalDate: "Today", minPrice: 1250, maxPrice: 1750, modalPrice: 1550 },
   { market: "Hassan", district: "Hassan", state: "Karnataka", commodity: "Potato", variety: "Jyoti", grade: "Grade A", arrivalDate: "Today", minPrice: 1550, maxPrice: 2150, modalPrice: 1900 },
 
-  // Soyabean
-  { market: "Latur", district: "Latur", state: "Maharashtra", commodity: "Soyabean", variety: "Yellow", grade: "FAQ", arrivalDate: "Today", minPrice: 4200, maxPrice: 4850, modalPrice: 4600 },
-  { market: "Washim", district: "Washim", state: "Maharashtra", commodity: "Soyabean", variety: "Yellow", grade: "FAQ", arrivalDate: "Today", minPrice: 4150, maxPrice: 4780, modalPrice: 4550 },
-  { market: "Indore", district: "Indore", state: "Madhya Pradesh", commodity: "Soyabean", variety: "Yellow", grade: "Grade A", arrivalDate: "Today", minPrice: 4300, maxPrice: 4950, modalPrice: 4700 },
-  { market: "Ujjain", district: "Ujjain", state: "Madhya Pradesh", commodity: "Soyabean", variety: "Yellow", grade: "Grade A", arrivalDate: "Today", minPrice: 4250, maxPrice: 4850, modalPrice: 4620 },
-  { market: "Nagpur", district: "Nagpur", state: "Maharashtra", commodity: "Soyabean", variety: "Yellow", grade: "Grade A", arrivalDate: "Today", minPrice: 4280, maxPrice: 4900, modalPrice: 4650 },
+  // Rice
+  { market: "Latur", district: "Latur", state: "Maharashtra", commodity: "Rice", variety: "Basmati", grade: "FAQ", arrivalDate: "Today", minPrice: 4200, maxPrice: 4850, modalPrice: 4600 },
+  { market: "Washim", district: "Washim", state: "Maharashtra", commodity: "Rice", variety: "Basmati", grade: "FAQ", arrivalDate: "Today", minPrice: 4150, maxPrice: 4780, modalPrice: 4550 },
+  { market: "Indore", district: "Indore", state: "Madhya Pradesh", commodity: "Rice", variety: "Basmati", grade: "Grade A", arrivalDate: "Today", minPrice: 4300, maxPrice: 4950, modalPrice: 4700 },
+  { market: "Ujjain", district: "Ujjain", state: "Madhya Pradesh", commodity: "Rice", variety: "Basmati", grade: "Grade A", arrivalDate: "Today", minPrice: 4250, maxPrice: 4850, modalPrice: 4620 },
+  { market: "Nagpur", district: "Nagpur", state: "Maharashtra", commodity: "Rice", variety: "Basmati", grade: "Grade A", arrivalDate: "Today", minPrice: 4280, maxPrice: 4900, modalPrice: 4650 },
 
   // Wheat
   { market: "Lasalgaon", district: "Nashik", state: "Maharashtra", commodity: "Wheat", variety: "Lokwan", grade: "Grade A", arrivalDate: "Today", minPrice: 2450, maxPrice: 2950, modalPrice: 2750 },
